@@ -1,0 +1,11 @@
+body {background-color: grey}
+h1{font-family: UBUNTU}
+p{
+	background-color: pink;
+    border: 10px solid black;
+}
+#Igor{
+	background-color: blue;
+}
+
+.professores {color: green;}
