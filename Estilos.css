@@ -2,10 +2,17 @@ body {background-color: grey}
 h1{font-family: UBUNTU}
 p{
 	background-color: pink;
-    border: 10px solid black;
+    border: 10px solid    black;
 }
 #Igor{
-	background-color: blue;
+	background-color: blue ;
 }
 
-.professores {color: green;}
+.professores {
+
+	color: red;
+	border:15px solid yellow;
+}   
+
+.imagem{background-image:url(http://www.2040motos.com/_content/cars/images/29/164929/001.jpg);
+}
