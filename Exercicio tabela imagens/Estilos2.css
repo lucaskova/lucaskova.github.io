@@ -1,0 +1,22 @@
+td,th{
+	border:1px solid #dddddd;
+	padding:15px;
+}
+
+table{ width: 50%;
+	border-collapse: collapse;
+}
+
+body{
+	text-align: center;
+}
+
+th{
+	background-color: blue;
+
+}
+
+td{
+	background-color: green;
+}
+
