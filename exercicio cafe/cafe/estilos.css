@@ -20,5 +20,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-body{background-image: url(Imagens/starbugs.jpg)
+body {background-image: url(Imagens/starbugs.jpg);
+	background-repeat: no-repeat;
 }
+
