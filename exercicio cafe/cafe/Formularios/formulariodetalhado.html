@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+   <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+      <table>
+        <tr>
+ 	       <th colspan="2" class="formheader">Dados de contato</th>
+        </tr>
+	 	<tr>
+	 		<td class="formheader">Nome Completo:</td>
+	 		<td class="formfield"> <input type="text" size="40" required placeholder="João cunha" name="nome"></td>
+	 	</tr>
+	 	<tr>
+	 		<td class="formheader">Email:</td> 
+	 		<td class="formfield"><input type="text" size="40" required placeholder="xxx@hotmail.com" name="email"></td>
+	 	</tr>
+	 	<tr>
+	 	    <td class="formheader">Telefone:</td>
+	 	    <td class="formfield"><input type="number" size="40" required placeholder="(55) 996925767" name="telefone"></td>
+	 	</tr>
+        <tr>
+            <th colspan="2" class="formheader">Informações do pedido</th>
+        </tr>
+
+        <tr>
+            <td class="formfield"> Variedade: </td>
+            <td>
+               <select>
+					<option value ="Grãos da colombia"> Grãos da Colombia</option>
+					<option value ="Grãos da Itália">Grãos da Itália</option>
+					<option value ="Grãos do Imalaia">Grãos do Imalaia</option>
+					<option value ="Grãos da Angola">Grãos da Angola</option>
+			   </select>
+			</td>
+	    </tr>
+
+	    <tr>
+			<td class="formheader"> Quantidade:</td>
+			<td class="formfield"><input type="number" size="20" name="quantidade"></td>
+		</tr>
+
+		<tr>
+			<td class="formheader"> Data limite:</td>
+			<td class="formfield"><input type="date" name="data"></td>
+		</tr>	
+
+		<tr>
+			<td class="formheader">Tipo:</td>
+			<td class="formfield"><input type="radio"  name="moidos"> Grãos Moidos
+			<br>
+			<input type="radio" name="inteiros">Grãos Inteiros</td>
+			
+		
+		</tr>	
+
+		<tr>
+			<td class="formheader">Extras:</td>
+			<td class="formfield"><input type="checkbox" name="extras" value="embalar">Embalar Para presente.
+			<br>
+			<input type="checkbox" name="extras" value="catalogo">Quero um catálogo com cafés especiais.
+			</td>
+		</tr>
+
+		<tr>
+			<th colspan="2" class="fomheader">Dados de entrega</th>
+		</tr>	
+
+		<tr>
+			<td class="formheader">Endereço:</td>
+			<td class="formfield"><input type="text" size="40" name="entrega"  required placeholder="Rua das antas, apto 201 - centro">
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="formheader">Cidade/Estado:</td>
+			<td class="formfield"><input type="text" name="entrega" required placeholder="Frederico Westphalen"> / <select>
+				<option value="AC">AC</option>
+				<option value="AL">AL</option>
+				<option value="AP">AP</option>
+				<option value="AM">AM</option>
+				<option value="BA">BA</option>
+				<option value="CE">CE</option>
+				<option value="DF">DF</option>
+				<option value="ES">ES</option>
+				<option value="GO">GO</option>
+				<option value="MA">MA</option>
+				<option value="MT">MT</option>
+				<option value="MS">MS</option>
+				<option value="MG">MG</option>
+				<option value="PA">PA</option>
+				<option value="PB">PB</option>
+				<option value="PR">PR</option>
+				<option value="PE">PE</option>
+				<option value="PI">PI</option>
+				<option value="RJ">RJ</option>
+				<option value="RN">RN</option>
+				<option value="RS">RS</option>
+				<option value="RO">RO</option>
+				<option value="RR">RR</option>
+				<option value="SC">SC</option>
+				<option value="SP">SP</option>
+				<option value="SE">SE</option>
+				<option value="TO">TO</option>
+
+           </select>	
+        
+
+           <tr>
+            	<td class="formheader">CEP:</td>
+           	    <td class="formfield"><input type="text" size="40" name="cep" required placeholder="98400-000"></td>
+           </tr>
+
+           <tr>
+           		<td class="formheader">Observações:</td>
+           		<td class="formfield"><textarea></textarea></td>
+           	
+
+           	</tr>	
+
+
+       </table>
+   </form>
+
+</body>
+</htm
