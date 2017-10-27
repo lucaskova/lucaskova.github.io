@@ -1,0 +1,16 @@
+.form{
+	color: purple;
+	text-decoration: underline;
+}
+
+.formheader{
+	text-align: right;
+}
+
+table{
+	border: solid; color: green;
+}
+
+.escreva{
+	width: 500px;
+}
